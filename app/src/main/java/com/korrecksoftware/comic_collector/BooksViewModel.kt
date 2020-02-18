@@ -11,7 +11,7 @@ class BooksViewModel(application: Application) : AndroidViewModel(application) {
     val allBooks: LiveData<List<Book>>
 
     init {
-        val booksDao = ComicBookRoomDatabase.getDatabase(application).bookDao()
+        val booksDao = ComicBookRoomDatabase.getDatabase(application, viewModelScope).bookDao()
         repository = BookRepository(booksDao)
         allBooks = repository.allBooks
     }

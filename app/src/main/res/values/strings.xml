@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Comic-Collector</string>
+    <string name="title_caption">Book Title</string>
+    <string name="button_save">Save</string>
+    <string name="not_saved">Book not saved because it is empty.</string>
+    <string name="publisher_caption">Publisher</string>
+    <string name="issue_caption">Issue Number</string>
+    <string name="pubDate_caption">YYYY-MM-DD</string>
 </resources>
